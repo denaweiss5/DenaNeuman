@@ -56,7 +56,9 @@ margin-top: 8vh;
 
 .background h3 {
   color: #000000;
-  font-size: 2.5vh;
+  font-size: 3vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
   text-align: left;
   padding-left: 5vh;
 }
@@ -64,7 +66,7 @@ margin-top: 8vh;
 .work {
   padding-top: 20vh;
   background-color: rgb(245, 238, 238);
- 
+ padding-bottom: 15vh;
 }
 
 .work p{
@@ -80,11 +82,58 @@ margin-top: 8vh;
 font-size: 3.5vh;
 text-align: left;
 margin-left: 25vh;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
 }
 .work h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: lighter;
   color: #000000;
-font-size: 2.2vh;
+font-size: 2.5vh;
 text-align: left;
 margin-left: 25vh;
+}
+
+.education {
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+}
+
+.education p{
+  color: #000000;
+  padding-left: 5vh;
+  font-size: 2.5vh;
+  text-align: left;
+}
+
+.education h2 {
+  color: #000000;
+font-size: 3.5vh;
+text-align: left;
+margin-left: 25vh;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.education h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: lighter;
+  color: #000000;
+font-size: 2.5vh;
+text-align: left;
+margin-left: 25vh;
+}
+
+
+.hr {
+  visibility: hidden;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+.projects {
+  padding-top: 20vh;
+  background-color: rgb(245, 238, 238);
+ padding-bottom: 15vh;
 }
