@@ -136,4 +136,22 @@ margin-left: 25vh;
   padding-top: 20vh;
   background-color: rgb(245, 238, 238);
  padding-bottom: 15vh;
+
+}
+
+.projects p{
+  border: 2px solid black;
+  color: black;
+  width: 45vh;
+  height: 45vh;
+}
+
+.projects h2 {
+  color: #000000;
+  padding-left: 5vh;
+  padding-bottom: 10vh;
+  font-size: 2.5vh;
+  text-align: left;
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

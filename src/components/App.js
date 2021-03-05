@@ -1,7 +1,7 @@
 import "../App.css";
 // import Navbar from './Navbar.js'
 // import About from './About.js'
-import { Grid, Image } from "semantic-ui-react";
+import { Grid, Embed } from "semantic-ui-react";
 
 function App() {
   return (
@@ -92,15 +92,40 @@ function App() {
 
       </div>
       <div className='projects'>
+      <h2>- PROJECTS</h2>
       <Grid container columns={3}>
+        
     <Grid.Column>
-      <Image src='../images/local_voyage.jpeg' />
+      <Embed
+      id='cfzUZdhdb-o'
+      source='youtube'
+      placeholder='https://online.ahu.edu/wp-content/uploads/2019/03/Healthy-Food-Doesnt-Have-To-Be-Expensive.jpg'
+    ></Embed>
+      </Grid.Column>
+    <Grid.Column>
+    <Embed
+      id='mnhX_JFRejY'
+      source='youtube'
+      placeholder='https://www.espatial.com/wp-content/uploads/How-to-bubble-map-81-1030x581.jpg'
+    ></Embed>
     </Grid.Column>
     <Grid.Column>
-      <Image src='https://i9.ytimg.com/vi/mnhX_JFRejY/mq1.jpg?sqp=CKjBgIIG&rs=AOn4CLDwRFdubc-k8fLTA6n_SgMykMtvEA' />
+      <p>
+    <Embed
+      id='mnhX_JFRejY'
+      source='youtube'
+      placeholder='https://www.tomorrowsworldtoday.com/wp/wp-content/uploads/2020/01/twt-sticky-note-cork-scaled-1-1024x683.jpg'
+    ></Embed></p>
     </Grid.Column>
     <Grid.Column>
-      <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+    <Embed
+      id='rMW-a3ftwqE'
+      source='youtube'
+      placeholder='https://newsroom.unl.edu/announce/files/file119251.png'
+    ></Embed>
+    </Grid.Column>
+    <Grid.Column>
+   
     </Grid.Column>
   </Grid>
       </div>
