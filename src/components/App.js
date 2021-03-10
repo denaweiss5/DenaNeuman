@@ -1,10 +1,14 @@
 import "../App.css";
 // import Navbar from './Navbar.js'
+import React from "react";
 // import About from './About.js'
-import { Grid, Embed } from "semantic-ui-react";
+import { Grid, Embed, Reveal, Button } from "semantic-ui-react";
 
-function App() {
-  return (
+class App extends React.Component {
+
+
+render(){
+    return (
     <div className="App">
       <div class="welcome">
         <Grid>
@@ -93,44 +97,36 @@ function App() {
       </div>
       <div className='projects'>
       <h2>- PROJECTS</h2>
-      <Grid container columns={3}>
+        <div className='healthy_habits'> 
+          <h1>Healthy Habits </h1>
+          <a href="https://github.com/denaweiss5/HealthyHabitsBackend" target="_blank">GitHub</a>
+          <a href="https://youtu.be/cfzUZdhdb-o" target="_blank">Demo</a>
+        </div>
+        <div className='note_takers'>
+          <h1 >Note Takers</h1>
+          <a href="https://github.com/denaweiss5/NoteTakersFrontend" target="_blank">GitHub</a>
+          <a href="https://youtu.be/cfzUZdhdb-o" target="_blank">Demo</a>
+        </div>
+        <div className='local_voyage'>
+          <h1>Local Voyage</h1>
+          <a href="https://github.com/denaweiss5/FrontEndLocalVoyage" target="_blank">GitHub</a>
+          <a href="https://youtu.be/mnhX_JFRejY" target="_blank">Demo</a>
+        </div>
+        <div className='tutor_co'>
+          <h1 >TutorCo</h1>
+          <a href="https://github.com/denaweiss5/tutor-co" target="_blank">GitHub</a>
+          <a href="https://youtu.be/rMW-a3ftwqE" target="_blank">Demo</a>
+        </div>
+        <div className='dog_breed'>
+          <h1>Dog Breed 4 You</h1>
+          <a href="https://github.com/denaweiss5/Dog_Breed_4_You" target="_blank">GitHub</a>
+          <a href="https://youtu.be/7pVJ-cFKQ9s" target="_blank">Demo</a>
+        </div>
         
-    <Grid.Column>
-      <Embed
-      id='cfzUZdhdb-o'
-      source='youtube'
-      placeholder='https://online.ahu.edu/wp-content/uploads/2019/03/Healthy-Food-Doesnt-Have-To-Be-Expensive.jpg'
-    ></Embed>
-      </Grid.Column>
-    <Grid.Column>
-    <Embed
-      id='mnhX_JFRejY'
-      source='youtube'
-      placeholder='https://www.espatial.com/wp-content/uploads/How-to-bubble-map-81-1030x581.jpg'
-    ></Embed>
-    </Grid.Column>
-    <Grid.Column>
-      <p>
-    <Embed
-      id='mnhX_JFRejY'
-      source='youtube'
-      placeholder='https://www.tomorrowsworldtoday.com/wp/wp-content/uploads/2020/01/twt-sticky-note-cork-scaled-1-1024x683.jpg'
-    ></Embed></p>
-    </Grid.Column>
-    <Grid.Column>
-    <Embed
-      id='rMW-a3ftwqE'
-      source='youtube'
-      placeholder='https://newsroom.unl.edu/announce/files/file119251.png'
-    ></Embed>
-    </Grid.Column>
-    <Grid.Column>
-   
-    </Grid.Column>
-  </Grid>
       </div>
     </div>
   );
+    }
 }
 
 export default App;
